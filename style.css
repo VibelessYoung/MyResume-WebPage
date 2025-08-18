@@ -17,3 +17,26 @@ body {
   background: #FF6A3D;
   border-radius: 4px;
 }
+
+@media (max-width: 568px) {
+  .header-txt {
+    text-align: center !important;
+    margin-top: 40px;
+  }
+  .header-txt h1,
+  .header-txt h2,
+  .header-txt h3 {
+    font-size: 2rem;
+  }
+  .header-txt .btns {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .header-txt .skills {
+    text-align: center;
+    flex-wrap: wrap;
+  }
+}
+
